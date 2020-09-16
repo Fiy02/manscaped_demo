@@ -407,6 +407,120 @@
         </div>
       </div>
     </div>
+    <!-- 产品套件 -->
+    <div class="section-kit-include">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>kit includes</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <ul>
+              <li>
+                <span>01</span>
+                the lawn mower™ 3.0
+              </li>
+              <li>
+                <span>02</span>
+                manscaped™ boxers
+              </li>
+              <li>
+                <span>03</span>
+                crop preserver™
+              </li>
+              <li>
+                <span>04</span>
+                crop reviver™
+              </li>
+              <li>
+                <span>05</span>
+                magic mat™
+              </li>
+              <li>
+                <span>06</span>
+                The Shed
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-11">
+            <div class="row">
+              <div class="left-img col-md-5">
+                <img src="//cdn.shopify.com/s/files/1/1383/0317/t/377/assets/lawn-mower3-kit-incl.jpg?v=17180027577309118356" alt="">
+              </div>
+              <div class="right-text col-md-6">
+                <h2>the lawn mower™ 3.0</h2>
+                <h4>Trimmer for groin & body grooming</h4>
+                <p>_______________</p>
+                <span>Precision engineered electric trimmer featuring Advanced SkinSafe™ Technology designed for below-the-waist grooming and hygiene.</span>
+                <a href="/">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="left-text col-md-6">
+                <h2>manscaped™ boxers</h2>
+                <h4>ANTI-CHAFING BOXER BRIEFS</h4>
+                <p>_______________</p>
+                <span>House your family jewels in MANSCAPED™ boxers - underwear specifically engineered to reduce the risk of chafing. MANSCAPED™ boxers feature micro-fiber blend designed to keep high friction areas cool. Your balls will thank you™.</span>
+                <a href="/">LEARN MORE</a>
+              </div>
+              <div class="right-img col-md-5">
+                <img src="//cdn.shopify.com/s/files/1/1383/0317/t/377/assets/Manscaped_boxers_module.jpg?v=14468114586941598851" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="left-img col-md-5">
+                <img src="//cdn.shopify.com/s/files/1/1383/0317/t/377/assets/crop-preserver-module-4oz.jpg?v=8460098311637541777" alt="">
+              </div>
+              <div class="right-text col-md-6">
+                <h2>crop preserver™</h2>
+                <h4>ANTI-CHAFING BALL DEODORANT</h4>
+                <p>_______________</p>
+                <span>Designed specifically for a man’s most sensitive region, this deodorant helps to create an anti-chafing barrier and provide freshness below the waist.</span>
+                <a href="/">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="left-text col-md-6">
+                <h2>crop reviver™</h2>
+                <h4>BALL TONER & REFRESHER</h4>
+                <p>_______________</p>
+                <span>This spray-on ball toner is designed especially for highly sensitive areas of the body. It features soothing aloe and witch hazel extracts for protection.</span>
+                <a href="/">LEARN MORE</a>
+              </div>
+              <div class="right-img col-md-5">
+                <img src="//cdn.shopify.com/s/files/1/1383/0317/t/377/assets/Crop-Reviver-Module.jpg?v=3300286199105166407" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="left-img col-md-5">
+                <img src="//cdn.shopify.com/s/files/1/1383/0317/t/377/assets/Magic-Mat-Module.jpg?v=4370055133332614453" alt="">
+              </div>
+              <div class="right-text col-md-6">
+                <h2>magic mat™</h2>
+                <h4>DISPOSABLE SHAVING MATS</h4>
+                <p>_______________</p>
+                <span>Magic Mat™ disposable shaving mats can keep trimmings in one place for easy disposal. They also serve as a source of entertaining news!</span>
+                <a href="/">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="left-text col-md-6">
+                <h2>the shed</h2>
+                <h4>PREMIUM TRAVEL BAG</h4>
+                <p>_______________</p>
+                <span>Our premium quality travel and storage bag gives you a discreet place to handily store your MANSCAPED™ products between grooming sessions. Perfectly sized to keep under the sink or to take with you for easy, on-the-go grooming.</span>
+                <a href="/">LEARN MORE</a>
+              </div>
+              <div class="right-img col-md-5">
+                <img src="//cdn.shopify.com/s/files/1/1383/0317/t/377/assets/The-Shed-Module.jpg?v=7395789653544008676" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="featured-rd">
       <div class="container">
         <div class="row row-1"> 
@@ -1009,6 +1123,111 @@ export default {}
       }
     }
     .col-md-7 {}
+  }
+  .section-kit-include {
+    background-color: black;
+    .col-md-12 {
+      padding: 20px 0;
+      h1 {
+        font-size: 25px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+    .col-md-1 {
+      ul {
+        padding: 0;
+        li {
+          font-size: 15px;
+          color: white;
+          list-style-type: none;
+          padding: 10px 0;
+          span {
+            display: block;
+            color: #cea447;
+          }
+        }
+      }
+    }
+    .col-md-11 {
+      padding-left: 60px;
+      .left-img{
+        float: left;
+        img {
+          max-width: 110%;
+        }
+      }
+      .right-text {
+        padding-top: 90px;
+        padding-right: 60px;
+        float: left;
+        color: white;
+        h2 {
+          padding-bottom: 20px;
+          font-size: 35px;
+          text-transform: uppercase;
+        }
+        h4 {
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+        p {
+          font-weight: 900;
+          padding: 20px 0;
+          color: #daaa00;
+        }
+        span {
+          color: #9e9e9c;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 1px;
+        }
+        a {
+          padding: 20px 0;
+          display: block;
+          text-decoration: none;
+          color: white;
+          font-size: 18px;
+        }
+      }
+      .left-text {
+        padding-top: 90px;
+        text-align: right;
+        color: white;
+        h2 {
+          padding-bottom: 20px;
+          font-size: 35px;
+          text-transform: uppercase;
+        }
+        h4 {
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+        p {
+          font-weight: 900;
+          padding: 20px 0;
+          color: #daaa00;
+        }
+        span {
+          color: #9e9e9c;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 1px;
+        }
+        a {
+          padding: 20px 0;
+          display: block;
+          text-decoration: none;
+          color: white;
+          font-size: 18px;
+        }
+      }
+      .right-img {
+        img {
+          max-width: 120%;
+        }
+      }
+    }
   }
   .featured-rd {
     padding: 100px 0;
