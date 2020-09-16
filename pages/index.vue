@@ -1,24 +1,22 @@
 <template>
 <div>
   <div class="header">
-    <div class="container">
-      <div class="row">
-        <a href="/" style="width: 100%; display: block;"></a>
-        <div class="col col-md-3">
-          <img src="https://cdn.shopify.com/s/files/1/1383/0317/files/tag-special-offer_large.png">
-        </div>
-        <div class="col col-md-5">
-          <p class="special-offer">
-            <b>FREE boxers + toiletry bag + free Shipping</b>
-            <b>with the purchase of the PERFECT PACKAGE kit</b>
-          </p>
-        </div>
-        <div class="col col-md-4">
-          <img src="https://cdn.shopify.com/s/files/1/1383/0317/t/372/assets/arrow-right-white.png">
-          <span class="btn">GET LIMITED TIME OFFER</span>
-          </div>
+      <div class="container">
+          <a href="/">
+              <div class="row">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-5">
+                      <div class="text-box">
+                          <p>FREE boxers + toiletry bag + free Shipping</p>
+                          <p>with the purchase of the PERFECT PACKAGE kit</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <p>Get Limited Time Offer</p>
+                  </div>
+              </div>
+          </a>
       </div>
-    </div>
   </div>
   <!-- 导航栏 -->
   <div class="navigation-bar">
@@ -29,8 +27,8 @@
         </div>
         <div class="col-md-6">
           <div class="dropdown">
-            <!-- <a><nuxt-link to="/product">PRODUCTS</nuxt-link></a> -->
-            <a href="/">PRODUCTS</a>
+            <a><nuxt-link to="/product">PRODUCTS</nuxt-link></a>
+            <!-- <a href="/">PRODUCTS</a> -->
             <div class="dropdown-content">
               <ul class="menu">
                 <li class="col-md-4">
@@ -1019,59 +1017,54 @@ export default {}
 </script>
 
 <style lang="scss">
-
 .header {
-  width: 100%;
-  background-color: black;
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  .container{
-    height: 74px;
-    .row{
-      height: 100%;
-      .col-md-3 {
-        padding: 0;
-        img {
-          padding: 10px 0;
-          height: 74px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 5px 0;
+    a {
+        text-decoration: none;
+    }
+    .col-md-3 {
+        background-image: url(//cdn.shopifycdn.net/s/files/1/1383/0317/files/tag-special-offer_large.png?v=1577401152);
+        background-size: 230px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .col-md-5 {
+        text-align: left;
+        .text-box {
+            color: white;
+            font-size: 15px;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-top: 6px;
+            line-height: 30px;
         }
-      }
-      .col-md-5 {
-        padding: 0;
-        color: white;
-        text-align: center;
-        height: 100%;
-        .special-offer {
-          height: 100%;
-          padding: 13px 0;
-          font-size: 14px;
-          text-transform: uppercase;
-          line-height: 24px;
-          letter-spacing: 2px;
-          font-family: sans-serif;
+    }
+    .col-md-4 {
+        background-image: url(//cdn.shopifycdn.net/s/files/1/1383/0317/t/377/assets/arrow-right-white.png?v=14114415183759225239);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: center left;
+        background-position-x: 15px;
+        p {
+            font-family: fantasy;
+            letter-spacing: 1px;
+            color:#daaa00;
+            font-size: 24px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 12px 20px;
+            border: 1px solid #daaa00;
+            margin-left: 60px;
+            margin-top: 5px;
+            display: inline-block;
         }
-      }
-      .col-md-4 {
-        padding: 0;
-        height: 100%;
-        img {
-          height: 74px;
-          padding: 25px 25px;
-        }
-        .btn {
-          display: block;
-          float: right;
-          font-size: 20px; 
-          color: #daaa00; 
-          border: 1px solid; 
-          padding: 6px 20px;
-          margin: 15px 0 5px 5px;
-          font-family: sans-serif;
-        }
-      }
-    } 
-  }
+    }
 }
 
 .navigation-bar {
@@ -1081,6 +1074,7 @@ export default {}
   margin-top: 74px;
   z-index: 11;
   position: relative;
+  border-bottom: 1px solid #e0e0de;
   .container {
     height: 100%;
     .row {
@@ -1302,7 +1296,7 @@ export default {}
 .main-content {
   background-color: black;
   margin: 0;
-  position: relative;;
+  position: relative;
   .container {
     .row {
       .col-md-12 {
@@ -2410,18 +2404,19 @@ export default {}
           text-align: center;
           color: white;
           h1 {
-            padding: 40px 0px;
+            padding: 40px 0;
             font-size: 36px;
             line-height: 38px;
             font-weight: normal;
             font-family: fantasy;
+            letter-spacing: 1px;
           }
           .btn {
             font-family: Arial, Helvetica, sans-serif;
             background-color: #c99700;
             font-size: 20px; 
             border-style: none;
-            padding: 10px;
+            padding: 15px 20px;
             text-decoration: none;
             color:white
           }
