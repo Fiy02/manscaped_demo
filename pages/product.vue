@@ -521,6 +521,45 @@
         </div>
       </div>
     </div>
+        <div class="section-social-proof">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>TRUSTED BY OVER 1,000,000+ MEN</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+            <img src="https://cdn.shopify.com/s/files/1/1383/0317/files/13.jpg?v=1589908341" alt="">
+            <div class="nickname">@pedro_pertile</div>
+          </div>
+          <div class="col-md-2">
+            <img src="https://cdn.shopify.com/s/files/1/1383/0317/files/9.jpg?v=1589908342" alt="">
+            <div class="nickname">@leviimack</div>
+          </div>
+          <div class="col-md-2">
+            <img src="https://cdn.shopify.com/s/files/1/1383/0317/files/4.jpg?v=1589908342" alt="">
+            <div class="nickname">@paulakalini</div>
+          </div>
+          <div class="col-md-2">
+            <img src="https://cdn.shopify.com/s/files/1/1383/0317/files/14.jpg?v=1589908341" alt="">
+            <div class="nickname">@monemilano</div>
+          </div>
+          <div class="col-md-2">
+            <img src="https://cdn.shopify.com/s/files/1/1383/0317/files/8.jpg?v=1589908342" alt="">
+            <div class="nickname">@leonnathaniel_</div>
+          </div>
+          <div class="col-md-2">
+            <img src="https://cdn.shopify.com/s/files/1/1383/0317/files/Andrew-Inked-2.jpg?v=1594005534" alt="">
+            <div class="nickname">@andrewengland88</div>
+          </div>
+        </div>
+        <div class="btn">
+          <button></button>
+          <button></button>
+        </div>
+      </div>
+    </div>
     <div class="featured-rd">
       <div class="container">
         <div class="row row-1"> 
@@ -1122,7 +1161,6 @@ export default {}
         padding-right: 50px;
       }
     }
-    .col-md-7 {}
   }
   .section-kit-include {
     background-color: black;
@@ -1229,8 +1267,48 @@ export default {}
       }
     }
   }
+  .section-social-proof {
+    background-color: white;
+    .col-md-12 {
+      h2 {
+        text-align: center;
+        padding: 90px 0;
+        font-size: 40px;
+        font-family: fantasy;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: black;
+      }
+    }
+    .col-md-2 {
+      img {
+        max-width: 100%;
+      }
+      .nickname {
+        position: relative;
+        margin-top: -26px;
+        color: white;
+        padding: 1px 2px;
+        background-color: rgba(29, 29, 29, 0.8);
+      }
+    }
+    .btn {
+      padding-top: 10px;
+      padding-bottom: 30px;
+      text-align: center;
+      button {
+        margin: 0 5px;
+        background-color: #afacac;
+        cursor: pointer;
+        border: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+    }
+  }
   .featured-rd {
-    padding: 100px 0;
+    padding: 80px 0;
     background-color: black;
     .container {
       .row {
@@ -1262,6 +1340,7 @@ export default {}
   .product-list {
       background-color: white;
       .col-md-12 {
+        padding: 50px 0;
           h1 {
             letter-spacing: 1.5px;
             font-family: fantasy;
