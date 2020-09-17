@@ -23,19 +23,21 @@
     <div class="container">
       <div class="row">
         <div class="col-md-2">
-          <img src="//cdn.shopify.com/s/files/1/1383/0317/t/372/assets/logo-black.png?v=12627392707803563819" alt="manscaped">
+          <a href="/">
+            <img src="//cdn.shopify.com/s/files/1/1383/0317/t/372/assets/logo-black.png?v=12627392707803563819" alt="manscaped">
+          </a>
         </div>
         <div class="col-md-6">
           <div class="dropdown">
-            <a><nuxt-link to="/product">PRODUCTS</nuxt-link></a>
-            <!-- <a href="/">PRODUCTS</a> -->
+            <!-- <nuxt-link to="/sets">PRODUCTS</nuxt-link> -->
+            <a href="/products">PRODUCTS</a>
             <div class="dropdown-content">
               <ul class="menu">
                 <li class="col-md-4">
                   <span id="title">SETS</span>
-                  <ul class="sub-menu" >
+                  <ul class="sub-menu">
                     <li>
-                      <a href="/" class="d-flex">
+                      <a href="/sets" class="d-flex">
                         <div id="one" class="left-img">
                           <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/the-perfect-package-boxers_4ozpreserver_80x80.jpg?v=1598501107" alt="图片">
                         </div>
@@ -1106,11 +1108,9 @@ export default {}
         }
         .dropdown-content {
           display: none;
-          position: relative;
-          width: 1394px;
+          width: 1359px;
           position: absolute;
           background-color: #f9f9f9;
-          margin-top: 15px;
           margin-left: -715px;
           .menu {
             width: 100%;
