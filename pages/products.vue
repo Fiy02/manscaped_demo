@@ -70,7 +70,7 @@
                 </div>
             </div>
         </div>
-        <div class="tab-content" id="sets">
+        <div class="sets tab-content" id="sets">
             <div class="container">
                 <div class="row">
                     <div class="left-img col-md-6">
@@ -304,18 +304,18 @@
                 </div>
             </div>
         </div>
-        <div class="tab-content" id="tools">
-            <div class="continer">
+        <div class="tools tab-content" id="tools">
+            <div class="container">
                 <div class="row">
                     <div class="left col-md-6">
                         <img src="//cdn.shopify.com/s/files/1/1383/0317/products/LM3_grande.jpg?v=1596081356" alt="">
-                        <h2>THE LAWN MOWER™ 3.0</h2>
+                        <a href="/"><h2>THE LAWN MOWER™ 3.0</h2></a>
                         <span>SKINSAFE™ TRIMMER</span>
                         <p>$79.99</p>
                     </div>
                     <div class="right col-md-6">
                         <img src="//cdn.shopify.com/s/files/1/1383/0317/products/lawn-mower-2-white-bg_grande.jpg?v=1598488608" alt="">
-                        <h2>THE LAWN MOWER™ 2.0</h2>
+                        <a href="/"><h2>THE LAWN MOWER™ 2.0</h2></a>
                         <span>SKINSAFE™ TRIMMER</span>
                         <p>$59.99</p>
                     </div>
@@ -323,29 +323,122 @@
                 <div class="row">
                     <div class="left col-md-6">
                         <img src="//cdn.shopify.com/s/files/1/1383/0317/products/weed-whacker_grande.jpg?v=1596082816" alt="">
-                        <h2></h2>
-                        <span></span>
-                        <p></p>
+                        <a href="/"><h2>Weed Whacker™</h2></a>
+                        <span>EAR & NOSE HAIR TRIMMER</span>
+                        <p>$39.99</p>
                     </div>
                     <div class="right col-md-6">
-                        <img src="//cdn.shopify.com/s/files/1/1383/0317/products/LM3_grande.jpg?v=1596081356" alt="">
-                        <h2></h2>
-                        <span></span>
-                        <p></p>
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/Shears2.0_1024x1024_white_bg_grande.jpg?v=1599000872" alt="">
+                        <a href="/"><h2>THE SHEARS 2.0</h2></a>
+                        <span>Luxury Nail Kit</span>
+                        <p>$19.99</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="left col-md-6">
-                        <img src="//cdn.shopify.com/s/files/1/1383/0317/products/LM3_grande.jpg?v=1596081356" alt="">
-                        <h2></h2>
-                        <span></span>
-                        <p></p>
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/shears_1af63516-8799-4386-bee0-5a6b086dcbc6_grande.jpg?v=1556868987" alt="">
+                        <a href="/"><h2>THE SHEARS</h2></a>
+                        <span>Nail grooming kit</span>
+                        <p>$14.99</p>
                     </div>
                     <div class="right col-md-6">
-                        <img src="//cdn.shopify.com/s/files/1/1383/0317/products/LM3_grande.jpg?v=1596081356" alt="">
-                        <h2></h2>
-                        <span></span>
-                        <p></p>
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/replacement-blade_grande.jpg?v=1596082516" alt="">
+                        <a href="/"><h2>SkinSafe™ Blade Replacement</h2></a>
+                        <span>For The Lawn Mower™ Trimmer</span>
+                        <p>$19.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="formlations tab-content" id="formlations">
+            <div class="container">
+                <div class="row">
+                    <div class="left col-md-6">
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/Preserver-on-white-background-4oz_f74539eb-1c6d-408f-b6ff-15f3eb7c95a5_grande.jpg?v=1587113702" alt="">
+                        <a href="/"><h2>Crop Preserver™</h2></a>
+                        <span>Anti-Chafing Ball Deodorant</span>
+                        <p>$12.99</p>
+                        <span class="btn">add to cart</span>
+                    </div>
+                    <div class="right col-md-6">
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/01-crop-cleanser_b8c47388-4b76-4f15-ab2f-b784999cb186_grande.jpg?v=1568081395" alt="">
+                        <a href="/"><h2>CROP CLEANSER™</h2></a>
+                        <span>BODY WASH</span>
+                        <p>$9.99</p>
+                        <span class="btn">add to cart</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left col-md-6">
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/01-crop-reviver_2fb4e715-6dc2-42f4-a8f6-1e5533e022cb_grande.jpg?v=1568082105" alt="">
+                        <a href="/"><h2>CROP REVIVER™</h2></a>
+                        <span>BALL SPRAY TONER</span>
+                        <p>$10.99</p>
+                        <span class="btn">add to cart</span>
+                    </div>
+                    <div class="right col-md-6">
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/index-1_705406bf-ef3e-4fe4-9d67-faf7f820fdaf_grande.jpg?v=1567497478" alt="">
+                        <a href="/"><h2>CROP CLEANSER™</h2></a>
+                        <span>FOOT DEODORANT</span>
+                        <p>$14.99</p>
+                        <span class="btn">add to cart</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left col-md-6">
+                        <div class="tag-icon">LIMITED EDITION</div>
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/Refined-cologne_grande.jpg?v=1596082266" alt="">
+                        <a href="/"><h2>REFINED COLOGNE</h2></a>
+                        <span>SIGNATURE MANSCAPED™ SCENT</span>
+                        <p>$39.99</p>
+                        <span class="btn">add to cart</span>
+                    </div>
+                    <div class="right col-md-6">
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/01-crop-mop-bag-and-sachets_grande.jpg?v=1571881678" alt="">
+                        <a href="/"><h2>CROP MOP™</h2></a>
+                        <span>BALL WIPES</span>
+                        <p>$12.99</p>
+                        <span class="btn">add to cart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lifestyle tab-content" id="lifestyle">
+            <div class="container">
+                <div class="row">
+                    <div class="left col-md-6">
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/boxers-front_grande.jpg?v=1592617533" alt="">
+                        <a href="/"><h2>MANSCAPED™ BOXERS</h2></a>
+                        <span>ANTI-CHAFING BOXER BRIEFS</span>
+                        <p>$19.99</p>
+                    </div>
+                    <div class="right col-md-6">
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/t-shirt-front-guy_grande.jpg?v=1583542881" alt="">
+                        <a href="/"><h2>MANSCAPED™ T-SHIRT</h2></a>
+                        <span>PREMIUM COTTON TEE</span>
+                        <p>$19.99</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left col-md-6">
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/the-shed_a84e631e-e029-48ce-bd51-b3cf918251c6_grande.jpg?v=1534498893" alt="">
+                        <a href="/"><h2>THE SHED</h2></a>
+                        <span>PREMIUM TRAVEL BAG</span>
+                        <p>$39.99</p>
+                    </div>
+                    <div class="right col-md-6">
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/magic-mat_ac125c1c-979a-4fa0-8d37-de635ded75ac_grande.jpg?v=1571023550" alt="">
+                        <a href="/"><h2>MAGIC MAT™</h2></a>
+                        <span>DISPOSABLE SHAVING MATS</span>
+                        <p>$3.99</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left col-md-6">
+                        <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/products/mints_1d1160a3-57a8-4746-ab00-04b3e799f31a_grande.jpg?v=1534498212" alt="">
+                        <a href="/"><h2>MAN MINT</h2></a>
+                        <span>REFRESHING BREATH MINTS</span>
+                        <p>$4.99</p>
                     </div>
                 </div>
             </div>
@@ -430,7 +523,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+    
+}
 </script>
 
 <style lang="scss" scoped>
@@ -582,7 +677,7 @@ export default {}
             border-right: none;
         }
     }
-    .tab-content {
+    .sets {
         margin: 30px 0;
         .left-img {
             display: inline-block;
@@ -807,6 +902,124 @@ export default {}
             margin: 70px auto;
             border: 1px solid #dddcdc;
             max-width: 35%;
+        }
+    }
+    .tools {
+        .col-md-6 {
+            padding: 40px 0;
+            text-align: center;
+            text-transform: uppercase;
+            img {
+                max-width: 90%;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+                h2 {
+                    font-size: 25px;
+                }
+            }
+            span {
+                display: block;
+                margin: 10px 0;
+                color: #666;
+                font-size: 16px;
+            }
+            p {
+                font-family: fantasy;
+            }
+        }
+        .left {
+            padding-left: 50px;
+        }
+        .right {
+            padding-right: 50px;
+        }
+    }
+    .formlations {
+        .col-md-6 {
+            padding: 40px 0;
+            text-align: center;
+            text-transform: uppercase;
+            img {
+                position: relative;
+                max-width: 90%;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+                h2 {
+                    font-size: 25px;
+                }
+            }
+            span {
+                display: block;
+                margin: 10px 0;
+                color: #666;
+                font-size: 16px;
+            }
+            p {
+                font-family: fantasy;
+            }
+            .btn {
+                cursor: pointer;
+                display: inline-block;
+                margin-top: 20px;
+                padding: 15px 35px;
+                background-color: #daaa00;
+                color: white;
+                text-transform: uppercase;
+                font-size: 20px;
+            }
+            .tag-icon {
+                margin-left: 40px;
+                position: absolute;
+                z-index: 2;
+                text-align: left;
+                color: #daaa00;
+                padding: 5px 0;
+                border: 2px solid black;
+                border-left: none;
+                border-right: none;
+            }
+        }
+        .left {
+            padding-left: 50px;
+        }
+        .right {
+            padding-right: 50px;
+        }
+    }
+    .lifestyle {
+        .col-md-6 {
+            padding: 40px 0;
+            text-align: center;
+            text-transform: uppercase;
+            img {
+                max-width: 90%;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+                h2 {
+                    font-size: 25px;
+                }
+            }
+            span {
+                display: block;
+                margin: 10px 0;
+                color: #666;
+                font-size: 16px;
+            }
+            p {
+                font-family: fantasy;
+            }
+        }
+        .left {
+            padding-left: 50px;
+        }
+        .right {
+            padding-right: 50px;
         }
     }
 }
