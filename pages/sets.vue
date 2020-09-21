@@ -262,7 +262,7 @@
               </ul>
             </div>
           </div>
-          <a href="/">URCAUSE</a>
+          <a href="/">OUR CAUSE</a>
         </div>
         <div class="col-md-4">
           <div class="dropdown">
