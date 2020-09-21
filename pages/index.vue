@@ -334,7 +334,7 @@
                       </span><br>
                       PERFORMANCE
                     </h1>
-                    <p id="uder-line">___________</p>
+                    <div id="line"></div>
                     <p>"Combining third-generation innovations in design, power & hygiene, "<strong>The Lawn Mower™ 3.0</strong>" trimmer with SkinSafe™ Technology is the perfect tool for an incredible grooming experience."</p>
                   </div>
                 </div>
@@ -375,6 +375,7 @@
                   <div class="content-inner">
                     <span id="tag-4">04</span>
                     <h3>The Blades</h3>
+                    <span id="line"></span>
                     <div class="text-box">
                       <p>The soft ceramic blade featuring SkinSafe™ Technology is a high-performance tool. We recommend replacing it every three months to help reduce grooming accidents and promote optimal hygiene.</p>
                       <p id="text-italic">The Lawn Mower™ 3.0 trimmer blade is reverse compatible with The Lawn Mower™ 2.0 trimmer & the Peak Hygiene Plan. The Lawn Mower™ trimmer replaceable SkinSafe™ blade.</p>
@@ -393,6 +394,7 @@
                   <div class="content-inner">
                     <span id="tag-5">05</span>
                     <h3>WATERPROOF</h3>
+                    <span id="line"></span>
                     <div class="text-box-top">
                       <p>Ergonomic design is waterproof for convenient trimming in the shower. Ultra-quiet operation & low vibration. The Lawn Mower™ 3.0 trimmer is waterproof.</p>
                     </div>
@@ -427,6 +429,7 @@
             <div class="formu-ct">
               <h4><a href="/" one-link-mark="yes">CROP cleanser™</a></h4>
               <h5>Moisturizing hair & body wash</h5>
+              <span></span>
               <p>Featuring ingredients like soothing aloe, sea salt, and natural hydrators, this refreshing all-in-one cleanser is perfect for post-trimming in the shower.</p>
             </div>
           </div>
@@ -437,6 +440,7 @@
             <div class="formu-ct">
               <h4><a href="/" one-link-mark="yes">CROP reviver™</a></h4>
               <h5>SOOTHING BALL TONER</h5>
+              <span></span>
               <p>This spray-on ball toner is designed especially for highly sensitive areas of the body. It features soothing aloe and witch hazel extracts for protection.</p>
             </div>
           </div>
@@ -447,6 +451,7 @@
             <div class="formu-ct">
               <h4><a href="/" one-link-mark="yes">CROP PRESERVER™</a></h4>
               <h5>ANTI-CHAFING BALL DEODORANT</h5>
+              <span></span>
               <p>Designed specifically for a man’s most sensitive region, this deodorant helps to create an anti-chafing barrier and provide freshness below-the-waist.</p>
             </div>
           </div>
@@ -816,18 +821,18 @@
                     </div>
                   </div>
                   <div class="guarantee">
-                    <div class="item-gua">
-                      <div class="icon-gua">
-                        <img src="//cdn.shopify.com/s/files/1/1383/0317/t/372/assets/Free-Shipping-Icon-yellow.png?v=16988945280974123934" alt="图标">
+                      <div class="item-gua d-flex">
+                          <div class="icon-gua">
+                              <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/t/380/assets/Free-Shipping-Icon-yellow.png?v=16988945280974123934" alt="">
+                          </div>
+                          <span>FREE SHIPPING</span>
                       </div>
-                      <span>FREE SHIPPING</span>
-                    </div>
-                    <div class="item-gua">
-                      <div class="icon-gua two">
-                        <img src="//cdn.shopify.com/s/files/1/1383/0317/t/372/assets/Money-Back-Icon-yellow.png?v=2602795998500925545" alt="图片">
+                      <div class="item-gua d-flex">
+                          <div class="icon-gua">
+                              <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/t/380/assets/Money-Back-Icon-yellow.png?v=2602795998500925545" alt="">
+                          </div>
+                          <span>30 DAY MONEY-BACK GUARANTEE</span>
                       </div>
-                      <span>30 DAY MONEY-BACK GUARANTEE</span>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -1297,308 +1302,324 @@ export default {}
   background-color: black;
   margin: 0;
   position: relative;
-  .container {
-    .row {
-      .col-md-12 {
-        color: white;
-        text-align: center;
-        .under-line {
-          margin: 40px 0 -20px 0;
-        }
-        h1 {
-          font-size: 40px;
-          padding: 0 20%;
-          padding-top: 80px;
-        }
-        h3 {
-          padding: 0 20%;
-          line-height: 70px;
-          font-size: 20px;
-        }
-        h5 {
-          line-height: 20px;
-          padding: 0 20%;
-          font-size: 10px;
-          margin: 0 0 50px;
+  .top-wrapp {
+    .container {
+      .row {
+        .col-md-12 {
+          color: white;
+          text-align: center;
+          .under-line {
+            margin: 40px 0 -20px 0;
+          }
+          h1 {
+            font-size: 40px;
+            padding: 0 20%;
+            padding-top: 80px;
+          }
+          h3 {
+            padding: 0 20%;
+            line-height: 70px;
+            font-size: 20px;
+          }
+          h5 {
+            line-height: 20px;
+            padding: 0 20%;
+            font-size: 10px;
+            margin: 0 0 50px;
+          }
         }
       }
     }
-  }
-  .tab-content {
-    .container {
-      .row {
-        .tab-sticky {
-          color: #959595;
-          width: 10%;
-          height: 100%;
-          float: left;
-          font-size: 10px;
-          list-style-type: none;
-        }
-        .col-md-11 {
-          .page-index {
-            width: 100%;
-            height: 700px;
-            margin: 0;
-            background-image: url(//cdn.shopify.com/s/files/1/1383/0317/t/372/assets/mist-bg-white.png?v=12687477348955085302);
-            background-position: center center;
-            background-size: cover;
-            .index-left {
-              width: 50%;
-              height: 100%;
-              float: left;
-              margin-top: 80px;
-              .content-inner {
-                color: white;
-                font-family: sans-serif;
-                h1 {
-                  font-size: 3em;
+    .tab-content {
+      .container {
+        .row {
+          .tab-sticky {
+            color: #959595;
+            width: 10%;
+            height: 100%;
+            float: left;
+            font-size: 10px;
+            list-style-type: none;
+          }
+          .col-md-11 {
+            .page-index {
+              width: 100%;
+              height: 700px;
+              margin: 0;
+              background-image: url(//cdn.shopify.com/s/files/1/1383/0317/t/372/assets/mist-bg-white.png?v=12687477348955085302);
+              background-position: center center;
+              background-size: cover;
+              .index-left {
+                width: 50%;
+                height: 100%;
+                float: left;
+                margin-top: 80px;
+                .content-inner {
+                  color: white;
+                  font-family: sans-serif;
+                  h1 {
+                    font-size: 3em;
 
-                }
-                text-align: right;
-                #tag-1 {
-                  color: #cea447;
-                }
-                #uder-line {
-                  margin-top: 20px;
-                  margin-bottom: 20px;
-                  color: #cea447;
-                }
-                span {
-                  sup {
-                    font-size: 0.18em;
+                  }
+                  text-align: right;
+                  #tag-1 {
+                    color: #cea447;
+                  }
+                  #line {
+                    margin: 20px 0;
+                    float: right;
+                    border: 1px solid #cea447;
+                    width: 20%;
+                  }
+                  span {
+                    sup {
+                      font-size: 0.18em;
+                    }
+                  }
+                  .tt-yellow {
+                    color: #cea447;
+                    font-size: 0.58em;
+                  }
+                  p {
+                    display: inline-block;
+                    font-size: 15px;
+                    line-height: 38px;
+                    letter-spacing: 0.04em;
+                    font-weight: 300;
                   }
                 }
-                .tt-yellow {
+              }
+              .index-right {
+                height: 100%;
+                float: left;
+                margin-left: 50px;
+                img {
+                  max-width: 260px;
+                  max-height: 686px;
+                  margin-left: 40;
+                }
+              }
+            }
+            .page-one {
+              width: 100%;
+              height: 600px;
+              .top-content {
+                text-align: center;
+                width: 100%;
+                float: left;
+                color: white;
+                #tag-2 {
+                  margin: 40px;
                   color: #cea447;
-                  font-size: 0.58em;
+                }
+                h3 {
+                  font-size: 36px;
+                  line-height: 48px;
+                  margin: 0 0 25px;
+                  text-transform: uppercase;
+                  padding: 10px;
                 }
                 p {
+                  padding: 0 280px;
                   font-size: 15px;
-                  line-height: 38px;
-                  letter-spacing: 0.04em;
-                  font-weight: 300;
+                  line-height: 30px;
+                  letter-spacing: 0.025em;
+                  font-weight: 400;
+                  color: #959595;
+                  margin-bottom: 10px;
+                }
+              }
+              .bottom-content {
+                width: 100%;
+                float: left;
+                img {
+                  max-width: 920px;
+                  margin: 0 auto;
+                  display: block;
+                  border: none; 
                 }
               }
             }
-            .index-right {
-              height: 100%;
-              float: left;
-              margin-left: 50px;
-              img {
-                max-width: 260px;
-                max-height: 686px;
-                margin-left: 40;
-              }
-            }
-          }
-          .page-one {
-            width: 100%;
-            height: 600px;
-            .top-content {
-              text-align: center;
+            .page-two {
               width: 100%;
-              float: left;
-              color: white;
-              #tag-2 {
-                margin: 40px;
-                color: #cea447;
+              height: 1000px;
+              background-image: url(https://cdn.shopify.com/s/files/1/1383/0317/t/372/assets/Lm3-modun-3-trimmer-bg.png?v=10650439054810892512);
+              background-repeat: no-repeat;
+              background-position: center center;
+              background-size: contain;
+              .top-content {
+                width: 100%;
+                float: left;
+                text-align: center;
+                color: white;
+                #tag-3 {
+                  margin: 40px;
+                  color: #cea447;
+                }
+                h3 {
+                  font-size: 36px;
+                  line-height: 48px;
+                  margin: 0 0 25px;
+                  text-transform: uppercase;
+                  padding: 10px;
+                }
               }
-              h3 {
-                font-size: 36px;
-                line-height: 48px;
-                margin: 0 0 25px;
-                text-transform: uppercase;
-                padding: 10px;
-              }
-              p {
-                padding: 0 280px;
+              .bottom-content {
+                width: 100%;
+                float: left;
+                position: relative;
+                color: #959595;
                 font-size: 15px;
                 line-height: 30px;
-                letter-spacing: 0.025em;
-                font-weight: 400;
-                color: #959595;
-                margin-bottom: 10px;
-              }
-            }
-            .bottom-content {
-              width: 100%;
-              float: left;
-              img {
-                max-width: 920px;
-                margin: 0 auto;
-                display: block;
-                border: none; 
-              }
-            }
-          }
-          .page-two {
-            width: 100%;
-            height: 1000px;
-            background-image: url(https://cdn.shopify.com/s/files/1/1383/0317/t/372/assets/Lm3-modun-3-trimmer-bg.png?v=10650439054810892512);
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: contain;
-            .top-content {
-              width: 100%;
-              float: left;
-              text-align: center;
-              color: white;
-              #tag-3 {
-                margin: 40px;
-                color: #cea447;
-              }
-              h3 {
-                font-size: 36px;
-                line-height: 48px;
-                margin: 0 0 25px;
-                text-transform: uppercase;
-                padding: 10px;
-              }
-            }
-            .bottom-content {
-              width: 100%;
-              float: left;
-              position: relative;
-              color: #959595;
-              font-size: 15px;
-              line-height: 30px;
-              img {
-                max-width: 540px;
-                margin: 35px auto;
-                display: block;
-              }
-              #one-1 {
-                position: absolute;
-                padding-right: 740px;
-                top: 41%;
-                left: 45px;
-              }
-              #two-2 {
-                position: absolute;
-                padding-left: 750px;
-                right: 45px;
-                top: 5%;
-              }
-              #three-3 {
-                position: absolute;
-                padding-left: 750px;
-                right: 45px;
-                bottom: 12%;
-              }
-            }
-          }
-          .page-three {
-            width: 100%;
-            height: 500px;
-            margin: 0;
-            .three-left {
-              width: 50%;
-              height: 100%;
-              float: left;
-              padding-right: 130px;
-              .content-inner {
-                color: white;
-                #tag-4 {
-                  color: #cea447;
+                img {
+                  max-width: 540px;
+                  margin: 35px auto;
+                  display: block;
                 }
-                h3 {
-                  font-size: 36px;
-                  line-height: 48px;
-                  margin: 0 0 25px;
-                  text-transform: uppercase;
-                  padding-top: 10px;
+                #one-1 {
+                  position: absolute;
+                  padding-right: 740px;
+                  top: 41%;
+                  left: 45px;
                 }
-                .text-box {
-                  border-top: solid;
-                  border-color: #959595;
-                  border-width: 0.5px;
-                  padding: 20px 0;
-                  margin-top: 50px;
-                  p {
+                #two-2 {
+                  position: absolute;
+                  padding-left: 750px;
+                  right: 45px;
+                  top: 5%;
+                }
+                #three-3 {
+                  position: absolute;
+                  padding-left: 750px;
+                  right: 45px;
+                  bottom: 12%;
+                }
+              }
+            }
+            .page-three {
+              width: 100%;
+              height: 500px;
+              margin: 0;
+              .three-left {
+                width: 50%;
+                height: 100%;
+                float: left;
+                padding-right: 130px;
+                .content-inner {
+                  color: white;
+                  #tag-4 {
+                    color: #cea447;
+                  }
+                  h3 {
+                    font-size: 36px;
+                    line-height: 48px;
+                    margin: 0 0 25px;
+                    text-transform: uppercase;
+                    padding-top: 10px;
+                  }
+                  #line {
+                    display: block;
+                    max-width: 20%;
+                    border: 1px solid #cea447;
+                  }
+                  .text-box {
+                    border-color: #959595;
+                    border-width: 0.5px;
+                    padding: 20px 0;
+                    margin-top: 50px;
+                    p {
+                      color: #959595;
+                      font-size: 15px;
+                      line-height: 30px;
+                      margin-bottom: 20px;
+                    }
+                    #text-italic {
+                      font-size: 14px;
+                      line-height: 25px;
+                      font-weight: 300;
+                      font-style: italic;
+                      letter-spacing: 0.05em;
+                      color: #8b8b8b;
+                      font-family: sans-serif;
+                    }
+                  }
+                }
+              }
+              .three-right {
+                width: 50%;
+                height: 100%;
+                float: left;
+                img {
+                  width: 100%;
+                  height: auto;
+                  text-align: center;
+                  display: block;
+                  max-width: 480px;
+                  margin: 0 auto;
+                }
+              }
+            }
+            .page-forth {
+              width: 100%;
+              height: 600px;
+              margin: 0;
+              .forth-left {
+                width: 60%;
+                height: 100%;
+                float: left;
+                img {
+                  width: 100%;
+                  height: auto;
+                  text-align: center;
+                  display: block;
+                  max-width: 100%;
+                  margin: 0 auto;
+                }
+              }
+              .forth-right {
+                width: 40%;
+                height: 100%;
+                float: left;
+                padding-top: 150px;
+                padding-left: 20px;
+                .content-inner {
+                  color: white;
+                  #tag-5 {
+                    color: #cea447;
+                  }
+                  h3 {
+                    font-size: 36px;
+                    line-height: 48px;
+                    margin: 0 0 25px;
+                    text-transform: uppercase;
+                  }
+                  #line {
+                    display: block;
+                    max-width: 20%;
+                    border: 1px solid #cea447;
+                    margin-bottom: 10px;
+                  }
+                  .text-box-top {
                     color: #959595;
-                    font-size: 15px;
-                    line-height: 30px;
-                    margin-bottom: 20px;
-                  }
-                  #text-italic {
                     font-size: 14px;
-                    line-height: 25px;
-                    font-weight: 300;
-                    font-style: italic;
-                    letter-spacing: 0.05em;
-                    color: #8b8b8b;
-                    font-family: sans-serif;
+                    line-height: 30px;
+                    letter-spacing: 0.025em;
+                    margin: 0 0 20px;
+                    font-weight: 400;
                   }
-                }
-              }
-            }
-            .three-right {
-              width: 50%;
-              height: 100%;
-              float: left;
-              img {
-                width: 100%;
-                height: auto;
-                text-align: center;
-                display: block;
-                max-width: 480px;
-                margin: 0 auto;
-              }
-            }
-          }
-          .page-forth {
-            width: 100%;
-            height: 600px;
-            margin: 0;
-            .forth-left {
-              width: 60%;
-              height: 100%;
-              float: left;
-              img {
-                width: 100%;
-                height: auto;
-                text-align: center;
-                display: block;
-                max-width: 100%;
-                margin: 0 auto;
-              }
-            }
-            .forth-right {
-              width: 40%;
-              height: 100%;
-              float: left;
-              padding-top: 150px;
-              padding-left: 20px;
-              .content-inner {
-                color: white;
-                #tag-5 {
-                  color: #cea447;
-                }
-                h3 {
-                  font-size: 36px;
-                  line-height: 48px;
-                  margin: 0 0 25px;
-                  text-transform: uppercase;
-                }
-                .text-box-top {
-                  color: #959595;
-                  font-size: 14px;
-                  line-height: 30px;
-                  letter-spacing: 0.025em;
-                  margin: 0 0 20px;
-                  font-weight: 400;
-                }
-                .text-box-bottom {
-                  border-top: solid;
-                  border-color: #959595;
-                  border-width: 0.5px;
-                  color: #959595;
-                  font-size: 14px;
-                  line-height: 30px;
-                  letter-spacing: 0.025em;
-                  margin: 0 0 20px;
-                  font-weight: 400;
+                  .text-box-bottom {
+                    border-color: #959595;
+                    border-width: 0.5px;
+                    color: #959595;
+                    font-size: 14px;
+                    line-height: 30px;
+                    letter-spacing: 0.025em;
+                    margin: 0 0 20px;
+                    font-weight: 400;
+                    a {
+                      color:#959595;
+                    }
+                  }
                 }
               }
             }
@@ -1652,6 +1673,10 @@ export default {}
               font-size: 18px;
               line-height: 30px;
               text-transform: uppercase;
+              a {
+                text-decoration: none;
+                color: black;
+              }
             }
             h5 {
               padding-top: 10px;
@@ -1672,6 +1697,12 @@ export default {}
               letter-spacing: 0.25px;
               padding: 0 13%;
               font-weight: 400;
+            }
+            span {
+              display: block;
+              margin: 20px auto;
+              border: 1px solid #020202;
+              max-width: 20%;
             }
           }
         }
@@ -2203,32 +2234,22 @@ export default {}
                   }
                 }
                 .guarantee {
-                  margin-top: 20px;
-                  .item-gua {
-                    margin: 5px 0;
-                    text-align: left;
+                padding-top: 20px;
+                .item-gua {
+                    padding-bottom: 10px;
                     .icon-gua {
-                      img {
-                        height: 30px;
-                        padding: 0 10px;
-                        float: left;
-                        max-height: 20px;
-                        margin: 3px 0;
-                      }
-                    }
-                    .two {
-                      margin-left: 6px;
+                        text-align: center;
+                        width: 30px;
+                        img {
+                            max-height: 20px;
+                        }
                     }
                     span {
-                      margin: 10px 20px;
-                      color: #878585;
-                      font-size: 12px;
-                      line-height: 26px;
-                      font-family: sans-serif;
-                      font-weight: 400;
-                      letter-spacing: 1px;
+                        padding-left: 10px;
+                        font-size: 12px;
+                        color: #949393;
                     }
-                  }
+                }
                 }
               }
             }

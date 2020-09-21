@@ -374,19 +374,17 @@
                           </div>
                         </div>
                         <div class="guarantee">
-                          <div class="item-gua">
-                            <div class="icon-gua">
-                              <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/t/377/assets/Free-Shipping-Icon-yellow.png?v=16988945280974123934" alt="">
-                            </div>
-                            <span>FREE SHIPPING</span>
-                          </div>
-                          <div class="item-gua">
-                            <a href="/">
+                          <div class="item-gua d-flex">
                               <div class="icon-gua">
-                                <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/t/377/assets/Money-Back-Icon-yellow.png?v=2602795998500925545" alt="">
+                                  <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/t/380/assets/Free-Shipping-Icon-yellow.png?v=16988945280974123934" alt="">
+                              </div>
+                              <span>FREE SHIPPING</span>
+                          </div>
+                          <div class="item-gua d-flex">
+                              <div class="icon-gua">
+                                  <img src="//cdn.shopifycdn.net/s/files/1/1383/0317/t/380/assets/Money-Back-Icon-yellow.png?v=2602795998500925545" alt="">
                               </div>
                               <span>30 DAY MONEY-BACK GUARANTEE</span>
-                            </a>
                           </div>
                         </div>
                     </div>
@@ -1110,29 +1108,22 @@ export default {}
             }
           }
           .guarantee {
-            padding: 30px 0;
-            .item-gua {
-              position: relative;
-              padding-bottom: 10px;
-              .icon-gua {
-                width: 30px;
-                display: inline-block;
-                text-align: center;
-                img {
-                  max-height: 20px;
+                padding-top: 20px;
+                .item-gua {
+                    padding-bottom: 10px;
+                    .icon-gua {
+                        text-align: center;
+                        width: 30px;
+                        img {
+                            max-height: 20px;
+                        }
+                    }
+                    span {
+                        padding-left: 10px;
+                        font-size: 12px;
+                        color: #949393;
+                    }
                 }
-              }
-              span {
-                position: absolute;
-                padding-left: 10px;
-                display: inline-block;
-                font-size: 13px;
-                color: #afacac;
-              }
-            }
-            a {
-              text-decoration: none;
-            }
           }
         }
       }
